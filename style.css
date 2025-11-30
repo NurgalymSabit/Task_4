@@ -54,6 +54,23 @@ nav a:hover {
     font-size: 24px;
     cursor: pointer;
 }
+nav ~ .order-btn {
+    box-shadow: 0 0 10px rgba(255, 102, 0, 0.6);
+}
+
+header > nav > a {
+    padding: 5px 0;
+}
+
+.menu-toggle ~ .order-btn {
+    background-color: #ff7f2a;
+}
+
+.logo-wrapper ~ nav {
+    opacity: 0.95;
+}
+
+
 
 @media (max-width: 768px) {
     header {
